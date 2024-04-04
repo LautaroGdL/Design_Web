@@ -85,7 +85,8 @@ padding: 2rem 7%;
 }
 
 .header .logo img{
-    height: 6rem;
+    height: 4rem;
+    width: 8rem;
 }
 
 .header .navbar{
@@ -208,19 +209,23 @@ padding: 2rem 7%;
 .header .cart-items-container .btn{
     width: 100%;
     text-align: center;
+    text-transform: none;
 }
 
-.home{
+.home .image{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../images/) no-repeat;
+    background: url(../images/presentacion-techwear.webp) no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .home .content{
     max-width: 60rem;
+    margin: 0 auto;
+    padding-top: 10rem;   
+    padding-bottom: 10rem;
 }
 
 .home .content h3{
@@ -231,10 +236,15 @@ padding: 2rem 7%;
 
 .home .content p{
     font-size: 2rem;
-    font-weight: lighter;
+    font-weight: bolder;
     line-height: 1.8;
     padding: 1rem 0;
-    color: #fff;
+    text-transform: none;
+    color: #f11111;
+}
+
+.home .content .btn{
+ margin-left: 22rem;
 }
 
 .about .row{
@@ -260,6 +270,7 @@ padding: 2rem 7%;
 .about .row .content h3{
     font-size: 3rem;
     color: #fff;
+    margin-left: 20rem;
 }
 
 .about .row .content p{
@@ -267,12 +278,17 @@ padding: 2rem 7%;
     color: #ccc;
     padding: 1rem 0;
     line-height: 1.8;
+    text-transform: none;
 }
 
 .products .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
     gap: 1.5rem;
+}
+
+.about .row .content .btn{
+    margin-left: 24.5rem;
 }
 
 .products .box-container .box{
