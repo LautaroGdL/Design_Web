@@ -281,14 +281,14 @@ padding: 2rem 7%;
     text-transform: none;
 }
 
+.about .row .content .btn{
+    margin-left: 24.5rem;
+}
+
 .products .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
     gap: 1.5rem;
-}
-
-.about .row .content .btn{
-    margin-left: 24.5rem;
 }
 
 .products .box-container .box{
@@ -331,6 +331,52 @@ padding: 2rem 7%;
 
 .products .box-container .box:hover > *{
     color: var(--black);
+}
+
+
+.services .heading span{
+    color: #ff1010;
+}
+
+.services .row{
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+    
+}
+
+.services .row .image{
+    flex: 1 5 52rem;
+    text-align: right;
+}
+
+.services .row .image img{
+    width: 100%;
+}
+
+.services .row .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+    text-align: left;
+}
+
+.services .row .content h3{
+    font-size: 3rem;
+    color: #fff;
+    margin-left: 14rem;
+}
+
+.services .row .content p{
+    font-size: 1.6rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+    text-transform: none;
+}
+
+.services .row .content .btn{
+    margin-left: 21rem;
 }
 
 .contact .row{
