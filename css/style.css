@@ -531,7 +531,20 @@ padding: 2rem 7%;
     }
 
     .home .content p{
-        font-size: 4.5rem;
+        font-size: 2rem;
+    }
+
+    .home .content .btn{
+        margin-left: 2rem;
+    }
+
+    .about .content h3{
+        margin-right: 20rem;
+    }
+
+    .about .content .btn{
+        margin-right: 22rem;
+        display: inline-block;
     }
 }
 
