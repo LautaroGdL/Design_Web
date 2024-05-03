@@ -473,7 +473,7 @@ padding: 2rem 7%;
 
 
 /* media queries */
-@media (max-width:600px){
+@media (max-width:400px){
     html{
         font-size: 55%;
     }
@@ -488,7 +488,7 @@ padding: 2rem 7%;
         
 }
 
-@media (max-width:600px){
+@media (max-width:400px){
     
     #products-btn{
         display: inline-block;
@@ -605,7 +605,7 @@ padding: 2rem 7%;
     }
 }
 
-@media (max-width:600px){
+@media (max-width:400px){
     html{
         font-size: 50%;
     }
